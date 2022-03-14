@@ -113,15 +113,15 @@
    -- Experiments on your own: LED(7:4) indicators
 
    -- Turn LED(4) on if input value is equal to 0, ie "0000"
-   -- LED(4) <= '0' when (hex_i <= "0000")else
+   	LED(4) <= '0' when (hex_i <= "0000")else
 		'1' when others
 
    -- Turn LED(5) on if input value is greater than "1001", ie 10, 11, 12, ...
-   -- LED(5) <= '0' when (hex_i <= "1001")
+   	LED(5) <= '0' when (hex_i <= "1001")
 		'1' when others
 
    -- Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
-   -- LED(6) <= '0' when (hex_i = "0001")else
+	LED(6) <= '0' when (hex_i = "0001")else
 		'0' when (hex_i = "0011")else
 		'0' when (hex_i = "0101")else
 		'0' when (hex_i = "0111")else
@@ -132,7 +132,7 @@
 		'1' when others
 
    -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
-   -- LED(7) <= '1' when (hex_i = "0001")else
+   	LED(7) <= '1' when (hex_i = "0001")else
 		'1' when (hex_i = "0010")else
 		'1' when (hex_i = "0100")else
 		'1' when (hex_i = "1000")else
