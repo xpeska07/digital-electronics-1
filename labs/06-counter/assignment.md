@@ -35,10 +35,10 @@
    ![your figure](images/reset.png)
 
 	ZMĚNA SMĚRU ČÍTÁNÍ ->
-   ![your figure](images/zmena smeru.png)
+   ![your figure](images/zmena_smeru.png)
 
 	ZMĚNA PŘI ZMĚNĚ SIGNÁLU "ENABLE" ->
-   ![your figure](images/enable change.png)
+   ![your figure](images/enable_change.png)
 
 ### Two counters
 
