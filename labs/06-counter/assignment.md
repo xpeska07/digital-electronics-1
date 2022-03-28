@@ -31,17 +31,17 @@
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-	RESET ->
+	RESET (s_reset) ->
    ![your figure](images/reset.png)
 
-	ZMĚNA SMĚRU ČÍTÁNÍ ->
+	ZMĚNA SMĚRU ČÍTÁNÍ (s_cnt_up) ->
    ![your figure](images/zmena_smeru.png)
 
-	ZMĚNA PŘI ZMĚNĚ SIGNÁLU "ENABLE" ->
+	ZMĚNA PŘI ZMĚNĚ SIGNÁLU "ENABLE" (s_en) ->
    ![your figure](images/enable_change.png)
 
 ### Two counters
 
 1. Image of the top layer structure including both counters, ie a 4-bit bidirectional counter from *Part 4* and a 16-bit counter with a 10 ms time base from *Experiments on your own*. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-   ![your figure]()
+   ![your figure](images/top.png)
